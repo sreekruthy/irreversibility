@@ -1,0 +1,1 @@
+{"run": {"model": "Qwen/Qwen2.5-7B-Instruct", "dtype": "torch.float16", "torch": "2.11.0+cu130", "transformers": "5.22.1", "python": "3.13.16", "gpus": ["Tesla T4", "Tesla T4"]}, "system_role_supported": true, "careful_prompt": false, "alpha": 0.2, "steer": "results/qwen7b/steer/dir_probe.npz", "steer_layer": 20, "tag": "calibration"}

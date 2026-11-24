@@ -1,0 +1,15 @@
+{
+ "state": "done",
+ "config": {
+  "script": "stated",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "data": "data/probe_sandbox.jsonl",
+  "batch": 8,
+  "limit": 0,
+  "max_new_tokens": 96,
+  "free_text": true
+ },
+ "config_hash": "362fdeb725e1",
+ "updated": "2026-11-04T16-59-28Z",
+ "finished": "2026-11-04T16-59-28Z"
+}

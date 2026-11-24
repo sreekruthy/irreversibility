@@ -1,0 +1,20 @@
+{
+ "state": "done",
+ "config": {
+  "script": "agent",
+  "model": "meta-llama/Llama-3.1-8B-Instruct",
+  "tasks": "data/tasks.jsonl",
+  "split": "test",
+  "careful": false,
+  "batch": 8,
+  "max_new_tokens": 160,
+  "limit": 0,
+  "steer": "results/llama8b/steer/dir_probe.npz",
+  "steer_layer": 15,
+  "alpha": -0.4,
+  "tag": "probe:-2.0"
+ },
+ "config_hash": "f8c06b01cc63",
+ "updated": "2026-11-16T06-05-12Z",
+ "finished": "2026-11-16T06-05-12Z"
+}

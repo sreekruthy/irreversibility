@@ -1,0 +1,293 @@
+{
+ "n_sample": 100,
+ "labelled_A": 100,
+ "labelled_B": 100,
+ "unusable_A": [],
+ "unusable_B": [],
+ "missing_auto": [],
+ "all": {
+  "A_vs_B": {
+   "n": 100,
+   "agreement": 0.93,
+   "kappa": 0.8805052919085012,
+   "ci95": [
+    0.7920172407594135,
+    0.9616030408764029
+   ],
+   "confusion": {
+    "irreversible->irreversible": 19,
+    "partial->partial": 21,
+    "partial->reversible": 5,
+    "reversible->irreversible": 1,
+    "reversible->partial": 1,
+    "reversible->reversible": 53
+   }
+  },
+  "A_vs_B_binary": {
+   "n": 100,
+   "agreement": 0.93,
+   "kappa": 0.8577235772357724,
+   "ci95": [
+    0.757977933900653,
+    0.9565976929681851
+   ],
+   "confusion": {
+    "not->not": 40,
+    "not->reversible": 5,
+    "reversible->not": 2,
+    "reversible->reversible": 53
+   }
+  },
+  "A_vs_auto": {
+   "n": 100,
+   "agreement": 0.9,
+   "kappa": 0.8325799430771806,
+   "ci95": [
+    0.7229652117231227,
+    0.9291166601978168
+   ],
+   "confusion": {
+    "irreversible->irreversible": 19,
+    "partial->irreversible": 2,
+    "partial->partial": 20,
+    "partial->reversible": 4,
+    "reversible->irreversible": 3,
+    "reversible->partial": 1,
+    "reversible->reversible": 51
+   }
+  },
+  "A_vs_auto_binary": {
+   "n": 100,
+   "agreement": 0.92,
+   "kappa": 0.8383838383838385,
+   "ci95": [
+    0.7233924652192051,
+    0.9397106109324759
+   ],
+   "confusion": {
+    "not->not": 41,
+    "not->reversible": 4,
+    "reversible->not": 4,
+    "reversible->reversible": 51
+   }
+  },
+  "B_vs_auto": {
+   "n": 100,
+   "agreement": 0.94,
+   "kappa": 0.8977505112474436,
+   "ci95": [
+    0.8134209394280087,
+    0.9669810341838316
+   ],
+   "confusion": {
+    "irreversible->irreversible": 20,
+    "partial->irreversible": 1,
+    "partial->partial": 20,
+    "partial->reversible": 1,
+    "reversible->irreversible": 3,
+    "reversible->partial": 1,
+    "reversible->reversible": 54
+   }
+  },
+  "B_vs_auto_binary": {
+   "n": 100,
+   "agreement": 0.95,
+   "kappa": 0.8983739837398373,
+   "ci95": [
+    0.8011869072191058,
+    0.979757085020243
+   ],
+   "confusion": {
+    "not->not": 41,
+    "not->reversible": 1,
+    "reversible->not": 4,
+    "reversible->reversible": 54
+   }
+  }
+ },
+ "sandbox": {
+  "A_vs_B": {
+   "n": 60,
+   "agreement": 1.0,
+   "kappa": 1.0,
+   "ci95": [
+    1.0,
+    1.0
+   ],
+   "confusion": {
+    "irreversible->irreversible": 15,
+    "partial->partial": 21,
+    "reversible->reversible": 24
+   }
+  },
+  "A_vs_B_binary": {
+   "n": 60,
+   "agreement": 1.0,
+   "kappa": 1.0,
+   "ci95": [
+    1.0,
+    1.0
+   ],
+   "confusion": {
+    "not->not": 36,
+    "reversible->reversible": 24
+   }
+  },
+  "A_vs_auto": {
+   "n": 60,
+   "agreement": 0.9666666666666667,
+   "kappa": 0.9494310998735778,
+   "ci95": [
+    0.8730964467005075,
+    1.0
+   ],
+   "confusion": {
+    "irreversible->irreversible": 15,
+    "partial->irreversible": 1,
+    "partial->partial": 20,
+    "reversible->irreversible": 1,
+    "reversible->reversible": 23
+   }
+  },
+  "A_vs_auto_binary": {
+   "n": 60,
+   "agreement": 0.9833333333333333,
+   "kappa": 0.9650349650349649,
+   "ci95": [
+    0.8863636363636362,
+    1.0
+   ],
+   "confusion": {
+    "not->not": 36,
+    "reversible->not": 1,
+    "reversible->reversible": 23
+   }
+  },
+  "B_vs_auto": {
+   "n": 60,
+   "agreement": 0.9666666666666667,
+   "kappa": 0.9494310998735778,
+   "ci95": [
+    0.8730964467005075,
+    1.0
+   ],
+   "confusion": {
+    "irreversible->irreversible": 15,
+    "partial->irreversible": 1,
+    "partial->partial": 20,
+    "reversible->irreversible": 1,
+    "reversible->reversible": 23
+   }
+  },
+  "B_vs_auto_binary": {
+   "n": 60,
+   "agreement": 0.9833333333333333,
+   "kappa": 0.9650349650349649,
+   "ci95": [
+    0.8863636363636362,
+    1.0
+   ],
+   "confusion": {
+    "not->not": 36,
+    "reversible->not": 1,
+    "reversible->reversible": 23
+   }
+  }
+ },
+ "scienceworld": {
+  "A_vs_B": {
+   "n": 40,
+   "agreement": 0.825,
+   "kappa": 0.4625719769673704,
+   "ci95": [
+    0.06181366807812028,
+    0.7476340694006309
+   ],
+   "confusion": {
+    "irreversible->irreversible": 4,
+    "partial->reversible": 5,
+    "reversible->irreversible": 1,
+    "reversible->partial": 1,
+    "reversible->reversible": 29
+   }
+  },
+  "A_vs_B_binary": {
+   "n": 40,
+   "agreement": 0.825,
+   "kappa": 0.4308943089430895,
+   "ci95": [
+    0.010600706713781317,
+    0.7342192691029901
+   ],
+   "confusion": {
+    "not->not": 4,
+    "not->reversible": 5,
+    "reversible->not": 2,
+    "reversible->reversible": 29
+   }
+  },
+  "A_vs_auto": {
+   "n": 40,
+   "agreement": 0.8,
+   "kappa": 0.44347826086956516,
+   "ci95": [
+    0.09942869698967248,
+    0.7335483870967741
+   ],
+   "confusion": {
+    "irreversible->irreversible": 4,
+    "partial->irreversible": 1,
+    "partial->reversible": 4,
+    "reversible->irreversible": 2,
+    "reversible->partial": 1,
+    "reversible->reversible": 28
+   }
+  },
+  "A_vs_auto_binary": {
+   "n": 40,
+   "agreement": 0.825,
+   "kappa": 0.4776119402985071,
+   "ci95": [
+    0.12487500000000006,
+    0.7780141843971632
+   ],
+   "confusion": {
+    "not->not": 5,
+    "not->reversible": 4,
+    "reversible->not": 3,
+    "reversible->reversible": 28
+   }
+  },
+  "B_vs_auto": {
+   "n": 40,
+   "agreement": 0.9,
+   "kappa": 0.6638655462184875,
+   "ci95": [
+    0.26759100542950515,
+    0.9253731343283581
+   ],
+   "confusion": {
+    "irreversible->irreversible": 5,
+    "partial->reversible": 1,
+    "reversible->irreversible": 2,
+    "reversible->partial": 1,
+    "reversible->reversible": 31
+   }
+  },
+  "B_vs_auto_binary": {
+   "n": 40,
+   "agreement": 0.9,
+   "kappa": 0.6551724137931034,
+   "ci95": [
+    0.24882629107981233,
+    0.9253731343283581
+   ],
+   "confusion": {
+    "not->not": 5,
+    "not->reversible": 1,
+    "reversible->not": 3,
+    "reversible->reversible": 31
+   }
+  }
+ }
+}

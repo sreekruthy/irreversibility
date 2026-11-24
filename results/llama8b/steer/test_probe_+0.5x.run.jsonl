@@ -1,0 +1,1 @@
+{"run": {"model": "meta-llama/Llama-3.1-8B-Instruct", "dtype": "torch.float16", "torch": "2.11.0+cu130", "transformers": "5.22.1", "python": "3.13.16", "gpus": ["Tesla T4", "Tesla T4"]}, "system_role_supported": true, "careful_prompt": false, "alpha": 0.1, "steer": "results/llama8b/steer/dir_probe.npz", "steer_layer": 15, "tag": "probe:0.5"}

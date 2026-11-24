@@ -1,0 +1,15 @@
+{
+ "state": "done",
+ "config": {
+  "script": "stated",
+  "model": "meta-llama/Llama-3.1-8B-Instruct",
+  "data": "data/tasks_shortcut_stated.jsonl",
+  "batch": 8,
+  "limit": 0,
+  "max_new_tokens": 256,
+  "free_text": true
+ },
+ "config_hash": "a8ecee07f374",
+ "updated": "2026-11-04T18-58-55Z",
+ "finished": "2026-11-04T18-58-55Z"
+}

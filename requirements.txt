@@ -1,0 +1,15 @@
+# Model runs and probe fitting ran on Kaggle (2x T4, Python 3.13) with: torch 2.11.0+cu130, transformers 5.22.1,
+# accelerate 1.15.0, scikit-learn 1.6.1, numpy 2.1.3, scipy 1.16.3, joblib 1.6.0 (full list: results/kaggle_pip_freeze.txt).
+# The offline analyses that turn results/ into the paper's tables and figures were run with the versions below.
+# To refit the probes exactly as reported, use scikit-learn==1.6.1 (the Kaggle version).
+torch==2.11.0
+transformers==5.22.1
+accelerate==1.15.0
+scikit-learn==1.9.1
+numpy==2.5.3
+scipy==1.18.1
+joblib==1.6.0
+matplotlib==3.11.2
+openpyxl==3.1.5
+scienceworld==1.2.3
+pytest==8.4.2

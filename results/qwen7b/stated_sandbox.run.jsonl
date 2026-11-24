@@ -1,0 +1,1 @@
+{"run": {"model": "Qwen/Qwen2.5-7B-Instruct", "dtype": "torch.float16", "torch": "2.11.0+cu130", "transformers": "5.22.1", "python": "3.13.16", "gpus": ["Tesla T4", "Tesla T4"]}, "letter_ids": {"A": 32, "B": 33, "C": 34}, "resumed_with_done": 0}

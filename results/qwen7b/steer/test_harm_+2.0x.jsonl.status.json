@@ -1,0 +1,20 @@
+{
+ "state": "done",
+ "config": {
+  "script": "agent",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "tasks": "data/tasks.jsonl",
+  "split": "test",
+  "careful": false,
+  "batch": 8,
+  "max_new_tokens": 160,
+  "limit": 0,
+  "steer": "results/qwen7b/steer/dir_harm.npz",
+  "steer_layer": 20,
+  "alpha": 0.4,
+  "tag": "harm:2.0"
+ },
+ "config_hash": "ea431f12b2b8",
+ "updated": "2026-11-19T10-37-30Z",
+ "finished": "2026-11-19T10-37-30Z"
+}

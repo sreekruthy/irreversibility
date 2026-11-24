@@ -1,0 +1,20 @@
+{
+ "state": "done",
+ "config": {
+  "script": "agent",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "tasks": "data/tasks.jsonl",
+  "split": "test",
+  "careful": false,
+  "batch": 8,
+  "max_new_tokens": 160,
+  "limit": 0,
+  "steer": "results/qwen7b/steer/dir_binding.npz",
+  "steer_layer": 20,
+  "alpha": -0.4,
+  "tag": "binding:-2.0"
+ },
+ "config_hash": "b78ce83d664f",
+ "updated": "2026-11-15T17-07-46Z",
+ "finished": "2026-11-15T17-07-46Z"
+}

@@ -1,0 +1,114 @@
+{
+ "layer": 20,
+ "mean_resid_norm": 83.26017761230469,
+ "cosine_with_probe_direction": {
+  "probe": 0.9999999403953552,
+  "binding": 0.8755105137825012,
+  "rand0": -0.009435031563043594,
+  "rand1": 0.0030931783840060234,
+  "rand2": -0.00956923607736826
+ },
+ "candidates": [
+  0.05,
+  0.1,
+  0.2,
+  0.4,
+  0.8
+ ],
+ "calibration": {
+  "0.05": {
+   "1": 0.09090909090909091,
+   "-1": 0.015625
+  },
+  "0.1": {
+   "1": 0.08571428571428572,
+   "-1": 0.015151515151515152
+  },
+  "0.2": {
+   "1": 0.08450704225352113,
+   "-1": 0.0
+  },
+  "0.4": {
+   "1": 0.09090909090909091,
+   "-1": 0.00980392156862745
+  },
+  "0.8": {
+   "1": 0.6311475409836066,
+   "-1": 0.15072463768115943
+  }
+ },
+ "s_max": 0.4,
+ "scale": 0.2,
+ "test_runs": [
+  {
+   "direction": "probe",
+   "multiple": -2.0,
+   "alpha": -0.4
+  },
+  {
+   "direction": "probe",
+   "multiple": -1.0,
+   "alpha": -0.2
+  },
+  {
+   "direction": "probe",
+   "multiple": -0.5,
+   "alpha": -0.1
+  },
+  {
+   "direction": "probe",
+   "multiple": 0.5,
+   "alpha": 0.1
+  },
+  {
+   "direction": "probe",
+   "multiple": 1.0,
+   "alpha": 0.2
+  },
+  {
+   "direction": "probe",
+   "multiple": 2.0,
+   "alpha": 0.4
+  },
+  {
+   "direction": "rand0",
+   "multiple": 2.0,
+   "alpha": 0.4
+  },
+  {
+   "direction": "rand0",
+   "multiple": -2.0,
+   "alpha": -0.4
+  },
+  {
+   "direction": "rand1",
+   "multiple": 2.0,
+   "alpha": 0.4
+  },
+  {
+   "direction": "rand1",
+   "multiple": -2.0,
+   "alpha": -0.4
+  },
+  {
+   "direction": "rand2",
+   "multiple": 2.0,
+   "alpha": 0.4
+  },
+  {
+   "direction": "rand2",
+   "multiple": -2.0,
+   "alpha": -0.4
+  },
+  {
+   "direction": "binding",
+   "multiple": 2.0,
+   "alpha": 0.4
+  },
+  {
+   "direction": "binding",
+   "multiple": -2.0,
+   "alpha": -0.4
+  }
+ ]
+}

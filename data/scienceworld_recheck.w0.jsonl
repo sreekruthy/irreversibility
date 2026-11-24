@@ -1,0 +1,33 @@
+{"id": "sw-boil-v6-k10-a3591864", "old": "irreversible", "new": "reversible", "nodes": 24, "capped": false, "secs": 39.8, "action": "pour table into ceramic cup"}
+{"id": "sw-power-component-v2-k5-d4fc8488", "old": "irreversible", "new": "irreversible", "nodes": 121, "capped": false, "secs": 138.3, "action": "eat orange"}
+{"id": "sw-test-conductivity-v300-k24-d4fc8488", "old": "irreversible", "new": "irreversible", "nodes": 91, "capped": false, "secs": 189.0, "action": "eat orange"}
+{"id": "sw-boil-v0-k24-e161abe1", "old": "irreversible", "new": "irreversible", "nodes": 200, "capped": true, "secs": 422.1, "action": "activate sink"}
+{"id": "sw-boil-v2-k17-e161abe1", "old": "irreversible", "new": "irreversible", "nodes": 200, "capped": true, "secs": 336.8, "action": "activate sink"}
+{"id": "sw-freeze-v9-k17-1a822c08", "old": "partial", "new": "partial", "nodes": 200, "capped": true, "secs": 254.3, "action": "move metal pot containing apple juice to freezer"}
+{"id": "sw-freeze-v1-k15-5fa1c3e5", "old": "irreversible", "new": "irreversible", "nodes": 200, "capped": true, "secs": 204.1, "action": "eat orange in inventory"}
+{"id": "sw-chemistry-mix-v6-k5-e161abe1", "old": "irreversible", "new": "irreversible", "nodes": 200, "capped": true, "secs": 96.5, "action": "activate sink"}
+{"id": "sw-chemistry-mix-v12-k12-d4fc8488", "old": "irreversible", "new": "irreversible", "nodes": 200, "capped": true, "secs": 154.1, "action": "eat orange"}
+{"id": "sw-chemistry-mix-v2-k4-37e5ecd9", "old": "irreversible", "new": "irreversible", "nodes": 200, "capped": true, "secs": 123.2, "action": "pick up orange in bowl"}
+{"id": "sw-chemistry-mix-paint-tertiary-color-v9-k6-a15372b5", "old": "irreversible", "new": "irreversible", "nodes": 200, "capped": true, "secs": 64.8, "action": "pour cup containing yellow paint in art studio in cup containing blue paint in table"}
+{"id": "sw-chemistry-mix-paint-tertiary-color-v17-k19-d4fc8488", "old": "irreversible", "new": "irreversible", "nodes": 200, "capped": true, "secs": 141.8, "action": "eat orange"}
+{"id": "sw-chemistry-mix-paint-tertiary-color-v10-k0-3cb773a4", "old": "irreversible", "new": "irreversible", "nodes": 200, "capped": true, "secs": 40.3, "action": "pour yellow paint on cup into bowl"}
+{"id": "sw-chemistry-mix-paint-tertiary-color-v17-k12-8458b6bb", "old": "irreversible", "new": "irreversible", "nodes": 200, "capped": true, "secs": 101.4, "action": "pour cup containing yellow paint in art studio in cup containing red paint in table"}
+{"id": "sw-measure-melting-point-known-substance-v151-k15-39ab5d99", "old": "partial", "new": "partial", "nodes": 200, "capped": true, "secs": 186.2, "action": "deactivate blast furnace"}
+{"id": "sw-power-component-v2-k0-6539d485", "old": "irreversible", "new": "irreversible", "nodes": 200, "capped": true, "secs": 56.2, "action": "eat orange in bowl"}
+{"id": "sw-power-component-v6-k7-35929519", "old": "irreversible", "new": "irreversible", "nodes": 200, "capped": true, "secs": 74.6, "action": "disconnect red wire"}
+{"id": "sw-find-non-living-thing-v48-k1-ea024dd7", "old": "irreversible", "new": "irreversible", "nodes": 200, "capped": true, "secs": 34.0, "action": "pour book shelf into hallway"}
+{"id": "sw-melt-v7-k20-0dd4bb9c", "old": "irreversible", "new": "irreversible", "nodes": 200, "capped": true, "secs": 281.7, "action": "pour orange in bowl into inventory"}
+{"id": "sw-melt-v5-k13-6539d485", "old": "irreversible", "new": "irreversible", "nodes": 200, "capped": true, "secs": 172.7, "action": "eat orange in bowl"}
+{"id": "sw-change-the-state-of-matter-of-v6-k13-cff7b166", "old": "irreversible", "new": "irreversible", "nodes": 200, "capped": true, "secs": 178.3, "action": "pour cup containing orange juice into metal pot"}
+{"id": "sw-change-the-state-of-matter-of-v7-k12-7f283e4a", "old": "irreversible", "new": "irreversible", "nodes": 200, "capped": true, "secs": 182.4, "action": "pour bowl into freezer"}
+{"id": "sw-change-the-state-of-matter-of-v0-k16-37e5ecd9", "old": "irreversible", "new": "irreversible", "nodes": 200, "capped": true, "secs": 239.8, "action": "pick up orange in bowl"}
+{"id": "sw-change-the-state-of-matter-of-v11-k16-5fa1c3e5", "old": "irreversible", "new": "irreversible", "nodes": 200, "capped": true, "secs": 231.1, "action": "eat orange in inventory"}
+{"id": "sw-chemistry-mix-paint-secondary-color-v14-k3-f5b89f47", "old": "irreversible", "new": "irreversible", "nodes": 200, "capped": true, "secs": 67.3, "action": "mix jug"}
+{"id": "sw-chemistry-mix-paint-secondary-color-v17-k15-d4fc8488", "old": "irreversible", "new": "irreversible", "nodes": 200, "capped": true, "secs": 98.5, "action": "eat orange"}
+{"id": "sw-use-thermometer-v55-k2-c4708fda", "old": "partial", "new": "partial", "nodes": 200, "capped": true, "secs": 70.8, "action": "mix fridge"}
+{"id": "sw-use-thermometer-v129-k9-0dda928a", "old": "partial", "new": "partial", "nodes": 93, "capped": false, "secs": 56.6, "action": "put down thermometer"}
+{"id": "sw-use-thermometer-v191-k9-4f59c49c", "old": "partial", "new": "partial", "nodes": 186, "capped": false, "secs": 93.7, "action": "move object to living room"}
+{"id": "sw-use-thermometer-v47-k0-e161abe1", "old": "irreversible", "new": "irreversible", "nodes": 200, "capped": true, "secs": 34.2, "action": "activate sink"}
+{"id": "sw-use-thermometer-v57-k9-755bb726", "old": "partial", "new": "reversible", "nodes": 20, "capped": false, "secs": 10.1, "action": "mix book shelf"}
+{"id": "sw-test-conductivity-v135-k21-d4fc8488", "old": "irreversible", "new": "irreversible", "nodes": 200, "capped": true, "secs": 129.7, "action": "eat orange"}
+{"id": "sw-grow-plant-v2-k19-8fff217f", "old": "irreversible", "new": "reversible", "nodes": 38, "capped": false, "secs": 53.8, "action": "move jug to sink"}

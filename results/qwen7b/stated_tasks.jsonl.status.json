@@ -1,0 +1,15 @@
+{
+ "state": "done",
+ "config": {
+  "script": "stated",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "data": "data/tasks_shortcut_stated.jsonl",
+  "batch": 8,
+  "limit": 0,
+  "max_new_tokens": 96,
+  "free_text": true
+ },
+ "config_hash": "9c2cb0699d6b",
+ "updated": "2026-11-04T17-01-36Z",
+ "finished": "2026-11-04T17-01-36Z"
+}

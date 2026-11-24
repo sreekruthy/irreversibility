@@ -1,0 +1,15 @@
+{
+ "state": "done",
+ "config": {
+  "script": "stated",
+  "model": "meta-llama/Llama-3.1-8B-Instruct",
+  "data": "data/probe_sandbox.jsonl",
+  "batch": 8,
+  "limit": 0,
+  "max_new_tokens": 256,
+  "free_text": true
+ },
+ "config_hash": "2de0015d7af3",
+ "updated": "2026-11-04T18-51-57Z",
+ "finished": "2026-11-04T18-51-57Z"
+}

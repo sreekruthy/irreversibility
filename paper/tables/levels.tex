@@ -1,0 +1,25 @@
+\begin{table}[t]
+\centering\small
+\setlength{\tabcolsep}{4pt}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lcc}
+\toprule
+ & \qwen & \llama \\
+\midrule
+\multicolumn{3}{l}{\emph{Same 312 sandbox test items (split 0, 3 classes)}} \\
+Encoded: probe at $L^\ast$, acc.\ ($\kappa$) & 0.97 (0.96) & 0.98 (0.97) \\
+Stated: A/B/C answer, acc.\ ($\kappa$) & 0.45 (0.17) & 0.29 (0.02) \\
+$\kappa$ probe vs.\ stated & 0.15 & 0.02 \\
+Probe right, stated wrong / reverse & 170 / 6 & 218 / 2 \\
+\midrule\multicolumn{3}{l}{\emph{60 test task pairs (95\% paired bootstrap CI)}} \\
+Enacted: sensitivity (strict) & $-$0.07 [$-$0.13, $-$0.02] & $-$0.03 [$-$0.08, 0.00] \\
+$K$ (argmax, prereg.) & 0.05 [0.00, 0.12] & 0.03 [0.00, 0.08] \\
+$K$ (probabilities, expl.) & 0.98 [0.95, 1.00] & 0.83 [0.73, 0.93] \\
+$A$ & 0.00 [0.00, 0.00] & 0.00 [0.00, 0.00] \\
+Gap $K-A$ (prereg.) & 0.05 [0.00, 0.12] & 0.03 [0.00, 0.08] \\
+Gap $K-A$ (probabilities) & 0.98 [0.95, 1.00] & 0.83 [0.73, 0.93] \\
+\bottomrule
+\end{tabular}}
+\caption{Encoded, stated and enacted reversibility on shared items, and the blindness gap. $\kappa$: Cohen's kappa with the true label. $K$: share of pairs whose stated answer ranks the irreversible version's shortcut as less reversible; $A$: share of pairs with strict caution only in the irreversible version.}
+\label{tab:levels}
+\end{table}

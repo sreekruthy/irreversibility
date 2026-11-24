@@ -1,0 +1,26 @@
+\begin{table*}[t]
+\centering\small
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lcccc}
+\toprule
+ & \multicolumn{2}{c}{\qwen{} ($L^\ast=20$)} & \multicolumn{2}{c}{\llama{} ($L^\ast=15$)} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}
+Sandbox probe at $L^\ast$ & mean $\pm$ s.d. & split 0 [95\% CI] & mean $\pm$ s.d. & split 0 [95\% CI] \\
+\midrule
+Main: binary, last action token & 0.964 $\pm$ 0.013 & 0.963 [0.92, 0.99] & 0.975 $\pm$ 0.002 & 0.977 [0.95, 1.00] \\
+(1) Mean over action tokens & 0.970 $\pm$ 0.005 & 0.968 [0.95, 0.99] & 0.980 $\pm$ 0.004 & 0.986 [0.98, 0.99] \\
+(2) Train on minimal pairs only & 0.881 $\pm$ 0.005 & 0.878 [0.84, 0.91] & 0.886 $\pm$ 0.007 & 0.895 [0.87, 0.92] \\
+(4) Horizon 1 labels$^\dagger$ & 0.940 (1 split) & 0.940 [0.89, 0.98] & 0.961 (1 split) & 0.961 [0.94, 0.98] \\
+(4) Horizon 2 labels$^\dagger$ & 0.963 (1 split) & 0.963 [0.93, 0.99] & 0.977 (1 split) & 0.977 [0.95, 1.00] \\
+(7) Three classes & 0.966 $\pm$ 0.014 & 0.961 [0.91, 1.00] & 0.968 $\pm$ 0.007 & 0.975 [0.95, 1.00] \\
+Layer 0, last token$^\ddagger$ & 0.500 $\pm$ 0.000 & 0.500 [0.50, 0.50] & 0.500 $\pm$ 0.000 & 0.500 [0.50, 0.50] \\
+Layer 0, mean over action tokens & 0.600 $\pm$ 0.007 & 0.594 [0.55, 0.63] & 0.626 $\pm$ 0.009 & 0.622 [0.58, 0.67] \\
+\midrule
+(3) Transfer sandbox $\rightarrow$ ScienceWorld & AUROC 0.62 & 0.583 [0.53, 0.63] & AUROC 0.50 & 0.484 [0.47, 0.49] \\
+(3) Transfer ScienceWorld $\rightarrow$ sandbox & AUROC 0.56 & 0.511 [0.50, 0.52] & AUROC 0.50 & 0.463 [0.45, 0.47] \\
+(5) Careful prompt: irreversible action, irr.\ versions & 1.00 $\rightarrow$ 1.00 & success 0.98 $\rightarrow$ 0.98 & 0.95 $\rightarrow$ 0.85 & success 0.92 $\rightarrow$ 0.82 \\
+\bottomrule
+\end{tabular}}
+\caption{Ablations. Probe rows: balanced accuracy (binary unless noted) at $L^\ast$, mean $\pm$ s.d.\ over three scenario splits, and the split-0 value with its 95\% scenario-bootstrap CI (test $n=344$ items per split, six held-out contexts). Transfer rows: train on all of one environment, test on all of the other ($n=607$ and $1714$). $^\dagger$One split only (a deviation; see Table~\ref{tab:deviations}). $^\ddagger$The last action token is always the same closing bracket, so this probe is at chance by construction; the mean-pooled layer-0 row is the informative embedding baseline. Ablation (5): irreversible-action rate and task success on the 60 irreversible versions, neutral $\rightarrow$ careful system prompt.}
+\label{tab:ablations}
+\end{table*}

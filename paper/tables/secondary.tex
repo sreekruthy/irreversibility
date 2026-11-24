@@ -1,0 +1,22 @@
+\begin{table*}[t]
+\centering\small
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{llcccc}
+\toprule
+Model & Prompt & Strict caution irr./rev. & Broad caution irr./rev. & Broad: sensitivity [CI], McNemar $p$ & Parse failures (episodes ended) \\
+\midrule
+Qwen-7B & neutral & 0.10 / 0.17 & 0.18 / 0.23 & $-$0.05 [$-$0.12, 0.02], 0.375 & 6 (2) \\
+Qwen-7B & careful & 0.07 / 0.15 & 0.15 / 0.18 & $-$0.03 [$-$0.13, 0.07], 0.754 & 0 (0) \\
+Llama-8B & neutral & 0.02 / 0.05 & 0.47 / 0.43 & 0.03 [0.00, 0.08], 0.500 & 0 (0) \\
+Llama-8B & careful & 0.05 / 0.12 & 0.60 / 0.53 & 0.07 [0.02, 0.13], 0.125 & 0 (0) \\
+\midrule
+\multicolumn{6}{l}{\emph{Paired 2$\times$2 tables of strict caution (careful in irr.\ only / rev.\ only / both / neither)}} \\
+Qwen-7B & neutral & \multicolumn{2}{c}{0 / 4 / 6 / 50} & \multicolumn{2}{l}{gap (prereg.) 0.05 [0.00, 0.12]} \\
+Qwen-7B & careful & \multicolumn{2}{c}{1 / 6 / 3 / 50} & \multicolumn{2}{l}{gap (prereg.) 0.03 [$-$0.02, 0.10]} \\
+Llama-8B & neutral & \multicolumn{2}{c}{0 / 2 / 1 / 57} & \multicolumn{2}{l}{gap (prereg.) 0.03 [0.00, 0.08]} \\
+Llama-8B & careful & \multicolumn{2}{c}{0 / 4 / 3 / 53} & \multicolumn{2}{l}{gap (prereg.) 0.03 [0.00, 0.08]} \\
+\bottomrule
+\end{tabular}}
+\caption{Preregistered secondary RQ3 measures. Broad caution adds inspecting the state (read\_file, list\_files, check\_balance) to strict caution. Parse failures: unparseable replies over all 120 episodes (episodes that ended after three consecutive failures); such episodes are kept.}
+\label{tab:secondary}
+\end{table*}

@@ -1,0 +1,134 @@
+\begin{thebibliography}{16}
+\providecommand{\natexlab}[1]{#1}
+
+\bibitem[{Alain and Bengio(2016)}]{alain2016probes}
+Guillaume Alain and Yoshua Bengio. 2016.
+\newblock \href {https://arxiv.org/abs/1610.01644} {Understanding intermediate
+  layers using linear classifier probes}.
+\newblock \emph{Preprint}, arXiv:1610.01644.
+
+\bibitem[{Arditi et~al.(2024)Arditi, Obeso, Syed, Paleka, Panickssery, Gurnee,
+  and Nanda}]{arditi2024refusal}
+Andy Arditi, Oscar Obeso, Aaquib Syed, Daniel Paleka, Nina Panickssery, Wes
+  Gurnee, and Neel Nanda. 2024.
+\newblock Refusal in language models is mediated by a single direction.
+\newblock In \emph{Advances in Neural Information Processing Systems 37
+  (NeurIPS 2024)}.
+
+\bibitem[{Basu et~al.(2026)Basu, Patel, Sheth, Muralidharan, Elamaran, Kinra,
+  Morgan, and Batniji}]{basu2026actionability}
+Sanjay Basu, Sadiq~Y. Patel, Parth Sheth, Bhairavi Muralidharan, Namrata
+  Elamaran, Aakriti Kinra, John Morgan, and Rajaie Batniji. 2026.
+\newblock \href {https://arxiv.org/abs/2603.18353} {Interpretability without
+  actionability: mechanistic methods cannot correct language model errors
+  despite near-perfect internal representations}.
+\newblock \emph{Preprint}, arXiv:2603.18353.
+
+\bibitem[{Grattafiori et~al.(2024)Grattafiori, Dubey, Jauhri
+  et~al.}]{grattafiori2024llama3}
+Aaron Grattafiori, Abhimanyu Dubey, Abhinav Jauhri, et~al. 2024.
+\newblock \href {https://arxiv.org/abs/2407.21783} {The {L}lama 3 herd of
+  models}.
+\newblock \emph{Preprint}, arXiv:2407.21783.
+
+\bibitem[{Grinsztajn et~al.(2021)Grinsztajn, Ferret, Pietquin, Preux, and
+  Geist}]{grinsztajn2021reversibility}
+Nathan Grinsztajn, Johan Ferret, Olivier Pietquin, Philippe Preux, and Matthieu
+  Geist. 2021.
+\newblock There is no turning back: A self-supervised approach for
+  reversibility-aware reinforcement learning.
+\newblock In \emph{Advances in Neural Information Processing Systems 34
+  (NeurIPS 2021)}.
+
+\bibitem[{Hewitt and Liang(2019)}]{hewitt2019controltasks}
+John Hewitt and Percy Liang. 2019.
+\newblock \href {https://doi.org/10.18653/v1/D19-1275} {Designing and
+  interpreting probes with control tasks}.
+\newblock In \emph{Proceedings of the 2019 Conference on Empirical Methods in
+  Natural Language Processing and the 9th International Joint Conference on
+  Natural Language Processing (EMNLP-IJCNLP)}, pages 2733--2743, Hong Kong,
+  China. Association for Computational Linguistics.
+
+\bibitem[{Krakovna et~al.(2018)Krakovna, Orseau, Kumar, Martic, and
+  Legg}]{krakovna2018relativereachability}
+Victoria Krakovna, Laurent Orseau, Ramana Kumar, Miljan Martic, and Shane Legg.
+  2018.
+\newblock \href {https://arxiv.org/abs/1806.01186} {Penalizing side effects
+  using stepwise relative reachability}.
+\newblock \emph{Preprint}, arXiv:1806.01186.
+
+\bibitem[{Li et~al.(2023)Li, Hopkins, Bau, Vi{\'e}gas, Pfister, and
+  Wattenberg}]{li2023othello}
+Kenneth Li, Aspen~K. Hopkins, David Bau, Fernanda Vi{\'e}gas, Hanspeter
+  Pfister, and Martin Wattenberg. 2023.
+\newblock Emergent world representations: Exploring a sequence model trained on
+  a synthetic task.
+\newblock In \emph{The Eleventh International Conference on Learning
+  Representations (ICLR)}.
+
+\bibitem[{Liu et~al.(2026)Liu, Zhang, Kasprova, Rabbani, Zahraei, Zhang,
+  Ebrahimpour-Boroojeny, and Chandrasekaran}]{liu2026agentabstain}
+Xun Liu, Yi~Evie Zhang, Vira Kasprova, Parisa Rabbani, Pardis~Sadat Zahraei,
+  Tianyu Zhang, Ali Ebrahimpour-Boroojeny, and Varun Chandrasekaran. 2026.
+\newblock {AgentAbstain}: Do {LLM} agents know when not to act?
+\newblock In \emph{Advances in Neural Information Processing Systems (NeurIPS
+  2026), to appear}.
+\newblock ArXiv:2607.10059.
+
+\bibitem[{{Qwen} et~al.(2024){Qwen}, Yang, Yang et~al.}]{qwen2024qwen25}
+{Qwen}, An~Yang, Baosong Yang, et~al. 2024.
+\newblock \href {https://arxiv.org/abs/2412.15115} {Qwen2.5 technical report}.
+\newblock \emph{Preprint}, arXiv:2412.15115.
+
+\bibitem[{Rimsky et~al.(2024)Rimsky, Gabrieli, Schulz, Tong, Hubinger, and
+  Turner}]{rimsky2024caa}
+Nina Rimsky, Nick Gabrieli, Julian Schulz, Meg Tong, Evan Hubinger, and
+  Alexander Turner. 2024.
+\newblock \href {https://doi.org/10.18653/v1/2024.acl-long.828} {Steering
+  {L}lama 2 via contrastive activation addition}.
+\newblock In \emph{Proceedings of the 62nd Annual Meeting of the Association
+  for Computational Linguistics (Volume 1: Long Papers)}, pages 15504--15522,
+  Bangkok, Thailand. Association for Computational Linguistics.
+
+\bibitem[{Ruan et~al.(2024)Ruan, Dong, Wang, Pitis, Zhou, Ba, Dubois, Maddison,
+  and Hashimoto}]{ruan2024toolemu}
+Yangjun Ruan, Honghua Dong, Andrew Wang, Silviu Pitis, Yongchao Zhou, Jimmy Ba,
+  Yann Dubois, Chris~J. Maddison, and Tatsunori Hashimoto. 2024.
+\newblock Identifying the risks of {LM} agents with an {LM}-emulated sandbox.
+\newblock In \emph{The Twelfth International Conference on Learning
+  Representations (ICLR)}.
+
+\bibitem[{Tang et~al.(2025)Tang, Li, Li, Maddison, Dong, and
+  Ruan}]{tang2025riskknowledge}
+Yuzhi Tang, Tianxiao Li, Elizabeth Li, Chris~J. Maddison, Honghua Dong, and
+  Yangjun Ruan. 2025.
+\newblock {LM} agents may fail to act on their own risk knowledge.
+\newblock In \emph{Conference on Language Modeling (COLM)}.
+
+\bibitem[{Turner et~al.(2020)Turner, Hadfield-Menell, and
+  Tadepalli}]{turner2020conservative}
+Alexander~Matt Turner, Dylan Hadfield-Menell, and Prasad Tadepalli. 2020.
+\newblock \href {https://doi.org/10.1145/3375627.3375851} {Conservative agency
+  via attainable utility preservation}.
+\newblock In \emph{Proceedings of the AAAI/ACM Conference on AI, Ethics, and
+  Society (AIES)}.
+
+\bibitem[{Wang et~al.(2022)Wang, Jansen, C{\^o}t{\'e}, and
+  Ammanabrolu}]{wang2022scienceworld}
+Ruoyao Wang, Peter Jansen, Marc-Alexandre C{\^o}t{\'e}, and Prithviraj
+  Ammanabrolu. 2022.
+\newblock \href {https://doi.org/10.18653/v1/2022.emnlp-main.775}
+  {{S}cience{W}orld: Is your agent smarter than a 5th grader?}
+\newblock In \emph{Proceedings of the 2022 Conference on Empirical Methods in
+  Natural Language Processing}, pages 11279--11298, Abu Dhabi, United Arab
+  Emirates. Association for Computational Linguistics.
+
+\bibitem[{Yin et~al.(2024)Yin, Pang, Ding, Chen, Bi, Xiong, Huang, Xiang, Shao,
+  and Chen}]{yin2024safeagentbench}
+Sheng Yin, Xianghe Pang, Yuanzhuo Ding, Menglan Chen, Yutong Bi, Yichen Xiong,
+  Wenhao Huang, Zhen Xiang, Jing Shao, and Siheng Chen. 2024.
+\newblock \href {https://arxiv.org/abs/2412.13178} {{SafeAgentBench}: A
+  benchmark for safe task planning of embodied {LLM} agents}.
+\newblock \emph{Preprint}, arXiv:2412.13178.
+
+\end{thebibliography}

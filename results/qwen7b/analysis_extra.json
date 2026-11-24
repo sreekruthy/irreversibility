@@ -1,0 +1,372 @@
+{
+ "model": "qwen7b",
+ "n_label_flips_in_recheck": 5,
+ "flipped_ids": [
+  "sw-boil-v6-k10-a3591864",
+  "sw-grow-plant-v2-k19-8fff217f",
+  "sw-use-thermometer-v191-k9-0e7eeb0c",
+  "sw-use-thermometer-v191-k9-77e20eca",
+  "sw-use-thermometer-v57-k9-755bb726"
+ ],
+ "all_items": {
+  "probe_overall": {
+   "n": 398,
+   "n_irr": 56,
+   "balanced_accuracy": 0.8707706766917294,
+   "auroc": 0.9729532163742691
+  },
+  "bow_overall": {
+   "n": 398,
+   "n_irr": 56,
+   "balanced_accuracy": 0.883093149540518,
+   "auroc": 0.9690893901420218
+  },
+  "within_verb": {
+   "activate": {
+    "probe": {
+     "n": 11,
+     "n_irr": 3,
+     "balanced_accuracy": 0.7708333333333333,
+     "auroc": 0.9583333333333333
+    },
+    "bow": {
+     "n": 11,
+     "n_irr": 3,
+     "balanced_accuracy": 0.6458333333333333,
+     "auroc": 0.625
+    }
+   },
+   "eat": {
+    "probe": {
+     "n": 38,
+     "n_irr": 34,
+     "balanced_accuracy": 0.75,
+     "auroc": 0.7941176470588236
+    },
+    "bow": {
+     "n": 38,
+     "n_irr": 34,
+     "balanced_accuracy": 0.5,
+     "auroc": 0.9044117647058822
+    }
+   },
+   "mix": {
+    "probe": {
+     "n": 28,
+     "n_irr": 1,
+     "balanced_accuracy": 0.48148148148148145,
+     "auroc": 0.962962962962963
+    },
+    "bow": {
+     "n": 28,
+     "n_irr": 1,
+     "balanced_accuracy": 0.5,
+     "auroc": 0.18518518518518523
+    }
+   },
+   "move": {
+    "probe": {
+     "n": 29,
+     "n_irr": 5,
+     "balanced_accuracy": 0.6,
+     "auroc": 0.8333333333333334
+    },
+    "bow": {
+     "n": 29,
+     "n_irr": 5,
+     "balanced_accuracy": 0.4166666666666667,
+     "auroc": 0.625
+    }
+   },
+   "pick up": {
+    "probe": {
+     "n": 38,
+     "n_irr": 1,
+     "balanced_accuracy": 0.5,
+     "auroc": 1.0
+    },
+    "bow": {
+     "n": 38,
+     "n_irr": 1,
+     "balanced_accuracy": 1.0,
+     "auroc": 1.0
+    }
+   },
+   "pour": {
+    "probe": {
+     "n": 32,
+     "n_irr": 12,
+     "balanced_accuracy": 0.625,
+     "auroc": 0.6583333333333333
+    },
+    "bow": {
+     "n": 32,
+     "n_irr": 12,
+     "balanced_accuracy": 0.5666666666666667,
+     "auroc": 0.6000000000000001
+    }
+   }
+  },
+  "probe_within_verb_weighted": {
+   "balanced_accuracy": 0.6071627735690236,
+   "auroc": 0.8574683724499902
+  },
+  "bow_within_verb_weighted": {
+   "balanced_accuracy": 0.6154592803030302,
+   "auroc": 0.6917774559318677
+  },
+  "n_items_in_mixed_verbs": 176,
+  "verbs_single_class": [
+   "close",
+   "connect",
+   "deactivate",
+   "disconnect",
+   "dunk",
+   "go to",
+   "open",
+   "put down"
+  ]
+ },
+ "excluding_relabelled": {
+  "probe_overall": {
+   "n": 397,
+   "n_irr": 55,
+   "balanced_accuracy": 0.8777511961722488,
+   "auroc": 0.9754917597022861
+  },
+  "bow_overall": {
+   "n": 397,
+   "n_irr": 55,
+   "balanced_accuracy": 0.8907230196703881,
+   "auroc": 0.9700159489633174
+  },
+  "within_verb": {
+   "activate": {
+    "probe": {
+     "n": 11,
+     "n_irr": 3,
+     "balanced_accuracy": 0.7708333333333333,
+     "auroc": 0.9583333333333333
+    },
+    "bow": {
+     "n": 11,
+     "n_irr": 3,
+     "balanced_accuracy": 0.6458333333333333,
+     "auroc": 0.625
+    }
+   },
+   "eat": {
+    "probe": {
+     "n": 38,
+     "n_irr": 34,
+     "balanced_accuracy": 0.75,
+     "auroc": 0.7941176470588236
+    },
+    "bow": {
+     "n": 38,
+     "n_irr": 34,
+     "balanced_accuracy": 0.5,
+     "auroc": 0.9044117647058822
+    }
+   },
+   "mix": {
+    "probe": {
+     "n": 28,
+     "n_irr": 1,
+     "balanced_accuracy": 0.48148148148148145,
+     "auroc": 0.962962962962963
+    },
+    "bow": {
+     "n": 28,
+     "n_irr": 1,
+     "balanced_accuracy": 0.5,
+     "auroc": 0.18518518518518523
+    }
+   },
+   "move": {
+    "probe": {
+     "n": 28,
+     "n_irr": 4,
+     "balanced_accuracy": 0.625,
+     "auroc": 0.875
+    },
+    "bow": {
+     "n": 28,
+     "n_irr": 4,
+     "balanced_accuracy": 0.4166666666666667,
+     "auroc": 0.6041666666666666
+    }
+   },
+   "pick up": {
+    "probe": {
+     "n": 38,
+     "n_irr": 1,
+     "balanced_accuracy": 0.5,
+     "auroc": 1.0
+    },
+    "bow": {
+     "n": 38,
+     "n_irr": 1,
+     "balanced_accuracy": 1.0,
+     "auroc": 1.0
+    }
+   },
+   "pour": {
+    "probe": {
+     "n": 32,
+     "n_irr": 12,
+     "balanced_accuracy": 0.625,
+     "auroc": 0.6583333333333333
+    },
+    "bow": {
+     "n": 32,
+     "n_irr": 12,
+     "balanced_accuracy": 0.5666666666666667,
+     "auroc": 0.6000000000000001
+    }
+   }
+  },
+  "probe_within_verb_weighted": {
+   "balanced_accuracy": 0.6112037037037037,
+   "auroc": 0.8642729536258947
+  },
+  "bow_within_verb_weighted": {
+   "balanced_accuracy": 0.6165952380952381,
+   "auroc": 0.6888257080610021
+  },
+  "n_items_in_mixed_verbs": 175,
+  "verbs_single_class": [
+   "close",
+   "connect",
+   "deactivate",
+   "disconnect",
+   "dunk",
+   "go to",
+   "open",
+   "put down"
+  ]
+ },
+ "extra_controls": {
+  "note": "exploratory controls added after the preregistered analysis",
+  "layer": 20,
+  "harm_direction": {
+   "layer": 20,
+   "n_each": 128,
+   "norm_harm_direction": 61.324493408203125,
+   "cos_harm_vs_reversibility_direction": 0.04001117870211601,
+   "cos_harm_vs_binding_direction": 0.01054501160979271,
+   "auroc_reversibility_direction_on_harmful_vs_harmless": 0.93670654296875,
+   "auroc_harm_direction_on_irreversible_vs_reversible_items": 0.6061145807799294
+  },
+  "held_out_domain": {
+   "files": {
+    "train_domains": [
+     "email",
+     "wallet"
+    ],
+    "C": 0.01,
+    "test": {
+     "n": 1135,
+     "balanced_accuracy": 0.539963432153585,
+     "macro_f1": 0.5099086405163402,
+     "ci95_bal_acc": [
+      0.5218547768343474,
+      0.5567591704812569
+     ],
+     "auroc": 0.5878856570707165
+    },
+    "pairs": {
+     "tier1": {
+      "n_pairs": 45,
+      "within_pair_accuracy": 0.5555555555555556
+     },
+     "tier2": {
+      "n_pairs": 45,
+      "within_pair_accuracy": 0.7111111111111111
+     },
+     "tier3": {
+      "n_pairs": 179,
+      "within_pair_accuracy": 0.5139664804469274
+     }
+    },
+    "bow_baselines_same_split": {
+     "majority": 0.5,
+     "bow_action": 0.5,
+     "bow_full_prompt": 0.5092383564369982
+    }
+   },
+   "email": {
+    "train_domains": [
+     "files",
+     "wallet"
+    ],
+    "C": 0.1,
+    "test": {
+     "n": 270,
+     "balanced_accuracy": 0.5041666666666667,
+     "macro_f1": 0.3662596895402276,
+     "ci95_bal_acc": [
+      0.5,
+      0.5125
+     ],
+     "auroc": 0.6986666666666668
+    },
+    "pairs": {
+     "tier1": {
+      "n_pairs": 18,
+      "within_pair_accuracy": 1.0
+     },
+     "tier2": {
+      "n_pairs": 12,
+      "within_pair_accuracy": 1.0
+     },
+     "tier3": {
+      "n_pairs": 90,
+      "within_pair_accuracy": 0.9555555555555556
+     }
+    },
+    "bow_baselines_same_split": {
+     "majority": 0.5,
+     "bow_action": 0.5333333333333333,
+     "bow_full_prompt": 0.5883333333333333
+    }
+   },
+   "wallet": {
+    "train_domains": [
+     "email",
+     "files"
+    ],
+    "C": 1.0,
+    "test": {
+     "n": 309,
+     "balanced_accuracy": 0.6406746031746031,
+     "macro_f1": 0.6174458620110794,
+     "ci95_bal_acc": [
+      0.5890751690371532,
+      0.6902527194747939
+     ],
+     "auroc": 0.7015873015873016
+    },
+    "pairs": {
+     "tier1": {
+      "n_pairs": 16,
+      "within_pair_accuracy": 0.9375
+     },
+     "tier2": {
+      "n_pairs": 14,
+      "within_pair_accuracy": 1.0
+     },
+     "tier3": {
+      "n_pairs": 90,
+      "within_pair_accuracy": 0.6888888888888889
+     }
+    },
+    "bow_baselines_same_split": {
+     "majority": 0.5,
+     "bow_action": 0.5,
+     "bow_full_prompt": 0.6144179894179894
+    }
+   }
+  }
+ }
+}

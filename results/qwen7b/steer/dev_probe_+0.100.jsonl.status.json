@@ -1,0 +1,20 @@
+{
+ "state": "done",
+ "config": {
+  "script": "agent",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "tasks": "data/tasks.jsonl",
+  "split": "dev",
+  "careful": false,
+  "batch": 8,
+  "max_new_tokens": 160,
+  "limit": 0,
+  "steer": "results/qwen7b/steer/dir_probe.npz",
+  "steer_layer": 20,
+  "alpha": 0.1,
+  "tag": "calibration"
+ },
+ "config_hash": "5274b491efc2",
+ "updated": "2026-11-15T14-55-31Z",
+ "finished": "2026-11-15T14-55-31Z"
+}
